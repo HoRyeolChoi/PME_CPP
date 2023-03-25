@@ -3,16 +3,16 @@
 #include <string>
 using namespace std;
 
-int main()
-{
-    vector<string> msg{"Hello", "C++", "World", "from", "VS Code", "and the C++ Extension!"};
+// int main()
+// {
+//     vector<string> msg{"Hello", "C++", "World", "from", "VS Code", "and the C++ Extension!"};
 
-    for (const string &word : msg)
-    {
-        cout << word << " ";
-    }
-    cout << endl;
-}
+//     for (const string &word : msg)
+//     {
+//         cout << word << " ";
+//     }
+//     cout << endl;
+// }
 /*
 ctrl + shift + b : 빌드
 이후 터미널(ctrl + j)에서 ./파일이름
